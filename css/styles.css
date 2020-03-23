@@ -1,0 +1,155 @@
+/* Globals */
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.red-background {
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 10% 5%;
+}
+
+.white-background {
+  background-color: white;
+  color: black;
+  padding: 7% 10% 5%;
+}
+
+.pink-background {
+  background-color: #ef8172;
+  color: white;
+  padding: 7% 10% 5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Title Section */
+.title-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.title-image {
+  max-width: 60%;
+  position: absolute;
+  z-index: 0;
+  right: 30%;
+}
+
+.rotateimg {
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+
+@media (max-width: 991px) {
+  .rotateimg {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  .title-image {
+    position: static
+  }
+
+  .title-text {
+    text-align: center;
+  }
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+  margin: 0 5%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-body {
+  color: #8f8f8f;
+}
+
+.feature-icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+.testimonial-image {
+  width: 130px;
+  border-radius: 100%;
+  padding: 1rem;
+}
+
+.carousel-item {
+  padding: 0 15%;
+}
+
+#press {
+  padding: 0 15% 3%;
+}
+
+.press-logo {
+  width: 120px;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.price-cards {
+  padding: 3% 5%;
+}
+
+.card-body h2 {
+  color: #ff4c68;
+}
+
+/* footer */
+.footer-icon {
+  padding: 0 10px;
+}
+
+.footer-text {
+  font-size: .75rem;
+  padding: 10px 0 0;
+}
