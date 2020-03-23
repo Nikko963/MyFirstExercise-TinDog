@@ -59,7 +59,7 @@ body {
 }
 
 .title-image {
-  max-width: 60%;
+  max-width: 50%;
   position: absolute;
   z-index: 0;
   right: 30%;
